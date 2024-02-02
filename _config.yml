@@ -1,17 +1,12 @@
-title: Geeky corner
-description: Much-Worse Jekyll theme for academic page and blog
-sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
+title: Nassos Moschos
+description: "Nassos Moschos"
+sourcecode: "https://github.com/0ena/website"
 
 permalink: blog/:year/:month/:day/:title
-exclude: ["Makefile", "README.md"]
+exclude: ["Makefile", "README.md", "vendor"]
 
-url: "http://gchauras.github.io"     # the base hostname & protocol for your site
-baseurl: "/much-worse-jekyll-theme"                   # the subpath of your site, e.g. /blog
-
-author:
-    name:
-    facebook:
-    scholar:
+url: "https://0ena.github.io/"     # the base hostname & protocol for your site
+baseurl: ""                   # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
@@ -23,35 +18,17 @@ highlighter: rouge
 #
 analytics:
     provider:
-    statcounter:
-        sc_project  :
-        sc_security :
-        sc_invisible: 1
-        sc_text     : 2
+    # statcounter:
+    #     sc_project  :
+    #     sc_security :
+    #     sc_invisible: 1
+    #     sc_text     : 2
     google:
-        tracking_id: ''
-    getclicky:
-      site_id:
-    mixpanel:
-        token: ''
-    piwik:
-        baseURL: '' # Piwik installation address (without protocol)
-        idsite: ''  # the id of the site on Piwik
-
-# Settings for comments helper
-# Set 'provider' to the comment provider you want to use.
-# Set 'provider' to false to turn commenting off globally.
-#
-comments:
-    provider:
-    disqus:
-      short_name:
-    livefyre:
-      site_id:
-    intensedebate:
-      account:
-    facebook:
-      appid:
-      num_posts: 5
-      width: 580
-      colorscheme: light
+        tracking_id: 'G-GX8B77859C'
+    # getclicky:
+    #   site_id:
+    # mixpanel:
+    #     token: ''
+    # piwik:
+    #     baseURL: '' # Piwik installation address (without protocol)
+    #     idsite: ''  # the id of the site on Piwik
