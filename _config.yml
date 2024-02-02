@@ -8,8 +8,6 @@ exclude: ["Makefile", "README.md", "vendor"]
 url: "https://0ena.github.io/"     # the base hostname & protocol for your site
 baseurl: ""                   # the subpath of your site, e.g. /blog
 
-title_separator: "•"
-
 # Build settings
 markdown: kramdown
 highlighter: rouge
