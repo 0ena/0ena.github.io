@@ -3,8 +3,9 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'EB Garamond', serif;
-$base-font-size:   x-large;
+$base-font-family: "Stratum2-Black", "Helvetica Neue", Helvetica, Roboto, "Segoe UI", "Segoe WP", Arial, Ubuntu, sans-serif;
+$large-font-size:  x-large;
+$base-font-size:   large;
 $small-font-size:  0.875em;
 $vsmall-font-size: 0.66em;
 $base-line-height: 1.5;
@@ -50,5 +51,7 @@ $desktop:          50em;
     "footer",
     "page",
     "syntax-highlighting",
-    "fancy-image"
+    "fancy-image",
+    "osu-fonts",
+    "osu-styles"
 ;
