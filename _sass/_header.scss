@@ -1,28 +1,25 @@
 .site-header {
     border-bottom: 1px solid $line-color;
     position: relative;
-    text-transform: uppercase;
-    font-size: $small-font-size;
+    font-variant: small-caps;
+    font-size: $large-font-size;
     @extend %clearfix;
 }
 
-.site-header, .site-header a {
-    color: $header-text-color;
+.site-title h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: $header-hover-color;
 }
+
+a.site-title {
+    color: $header-hover-color;
+    float: left;
+}
+
 .site-header a:hover {
     color: $header-hover-color;
     text-decoration: none;
-}
-
-.site-title {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    float: left;
-    letter-spacing: 1px;
-}
-
-.site-nav {
-    background: $background;
 }
 
 .site-nav ul {
@@ -34,8 +31,7 @@
 
 .site-nav .menu > li {
     display: inline-block;
-    margin: 1em 0 0 0.75em;
-    padding: 0;
+    padding: 20px 10px 20px 10px;
     position: relative;
     vertical-align: middle;
 }
@@ -98,7 +94,12 @@
 
 .site-nav {
     float: right;
+    background: $background;
 
+    ul {
+        margin-bottom: 0px;
+    }
+    
     .menu-icon {
         display: none;
     }
@@ -123,8 +124,6 @@
         .menu-icon {
             display: block;
             float: right;
-            width: 1.5em;
-            height: 1.25em;
             line-height: 0;
             padding-top: 10px;
             text-align: center;
