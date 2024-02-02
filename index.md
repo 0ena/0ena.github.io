@@ -7,7 +7,7 @@ permalink: /
 <h4></h4>
 <hr>
 I am Nassos, a PhD student in Electrical and Computer Engineering at the Georgia Institute of Technology advised by [Angelos Keromytis](https://angelosk.github.io/). 
-My research interests lie in <span class="underline"><b>hardware security</b></span>, and in particular in <span class="underline"><b>hardware trojan attacks and side-channels</b></span>.
+My research interests lie in <span class="underline"><b>hardware security</b></span>, focusing in hardware trojan attacks and side-channel analysis.
 Other topics of interest include IC design and computer architecture.
 
 <!---
