@@ -1,6 +1,6 @@
 title: Nassos Moschos
 description: "Nassos Moschos"
-sourcecode: "https://github.com/0ena/website"
+sourcecode: "https://github.com/0ena/0ena.github.io"
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md", "vendor"]
