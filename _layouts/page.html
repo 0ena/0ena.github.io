@@ -2,9 +2,38 @@
 layout: default
 ---
 <div class="post">
-    <header class="post-header">
-        <h1>{{ page.title }}</h1>
-    </header>
+    <div class="container">
+        <div class="row">
+          <div class="col-4 bio-column">
+            <h5></h5>
+            {% include image.html url="images/mountains.JPEG" caption="" width="224px" align="left" %}
+            
+            <b>PhD Student</b> <br>
+            <a href="https://www.gatech.edu/" target="_blank">Georgia Institute of Technology</a> <br>
+            <a href="https://ece.gatech.edu/" target="_blank">School of ECE</a> <br>
+            North Avenue <br />
+            Atlanta, GA 30332 <br />
+            <a href="mailto:amoschos@gatech.edu">amoschos@gatech.edu</a>
+            
+#            <hr>
+#            <h5>Teaching</h5>
+#            <div class="teaching">
+#                {% for class in site.data.classes %}
+#                <div class="entry"><b>{{class.term}}:</b> <a href="{{class.link}}" target="_blank">{{class.listing}} - {{class.title}}</a><br></div>
+#                {% endfor %}
+#            </div>
 
-    {{ content }}
+#            <hr>
+#            <h5>News</h5>
+#            <div class="news">
+#                {% for item in site.data.news %}
+#                <div class="entry"><b>{{item.date}}:</b> {{item.event}}</div>
+#                {% endfor %}
+#            </div>
+          </div>
+          <div class="col-8 border-left">
+            {{ content }}
+          </div>
+        </div>
+      </div>  
 </div>
