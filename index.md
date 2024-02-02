@@ -4,17 +4,23 @@ title: About
 permalink: /
 ---
 
-{% include image.html url="images/mountains.JPEG" caption="" max_width="300px" align="right" %}
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-## Contact
-
-Rebel base <br />
-[Yavin] <br />
-Galaxy far far away<br />
-Email: [chewy@rebel.com]
+<h4></h4>
+<hr>
+I'm Nassos, and I am interested in <span class="underline"><b>hardware security, IC design and computer architecture</b></span>.
 
 
-[Yavin]: https://en.wikipedia.org/wiki/Yavin
-[chewy@rebel.com]: mailto:chewy@rebel.com
+#### Select publications 
+
+{% assign selected = site.data.research.pubs | where: "selected", true %}
+{% for pub in selected %}
+{% if pub.image %}
+{% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
+{% endif %}
+[**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
+{{pub.author}}<br />
+*{{pub.conference}}* *{{pub.year}}*
+<br>
+{% if pub.media %}&nbsp;{% for article in pub.media %}[[{{article.name}}]({{article.url}}){:target="_blank" .sublinks}]{% endfor %}<br>{% endif %}
+{% if pub.note %} {{pub.note}}
+{% endif %}
+{% endfor %}
