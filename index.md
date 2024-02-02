@@ -8,7 +8,7 @@ permalink: /
 <hr>
 I'm Nassos, and I am interested in <span class="underline"><b>hardware security, IC design and computer architecture</b></span>.
 
-
+<!---
 #### Select publications 
 
 {% assign selected = site.data.research.pubs | where: "selected", true %}
@@ -24,3 +24,4 @@ I'm Nassos, and I am interested in <span class="underline"><b>hardware security,
 {% if pub.note %} {{pub.note}}
 {% endif %}
 {% endfor %}
+-->
