@@ -20,9 +20,11 @@ title: Research
 {%- if pub.note -%}{{pub.note}} {%- endif -%}
 {% endfor %}
 
+<!---
 ### Talks
 
 {% for talk in site.data.research.talks %}
 **{{talk.date}}**&nbsp;&nbsp;&nbsp;"{{talk.title}}." *{{talk.conference}}*. {{talk.location}}.
 {% if talk.media %}&nbsp;{% for article in talk.media %}[[{{article.name}}]({{article.url}}){:target="_blank" .sublinks}]{% endfor %}{% endif %}
 {% endfor %}
+-->
