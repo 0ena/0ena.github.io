@@ -7,20 +7,27 @@ layout: default
             <div class="col-4 bio-column">
             <h5></h5>
             {% include image.html url="images/mountains.JPEG" caption="" width="224px" align="left" %}
-            
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 bio-column">
             <b>PhD Student</b> <br>
             <a href="https://www.gatech.edu/" target="_blank">Georgia Institute of Technology</a> <br>
             <a href="https://ece.gatech.edu/" target="_blank">School of ECE</a> <br>
             Atlanta, Georgia <br>
             <a href="mailto:amoschos@gatech.edu">amoschos@gatech.edu</a>
-            
-            <hr>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-4 bio-column">
             <h4>News</h4>
             <div class="news">
                 {% for item in site.data.news %}
                 <div class="entry"><b>{{item.date}}:</b> {{item.event}}</div>
                 {% endfor %}
             </div>
+        </div>
 <!--            
             <hr>
             <h5>Teaching</h5>
@@ -30,11 +37,8 @@ layout: default
                 {% endfor %}
             </div>
 --> 
-            <div class="col-4 border-left">
-                {{ content }}
-            </div>
-    
-            </div>
+        <div class="col-4 border-left">
+            {{ content }}
         </div>
     </div>  
 </div>
