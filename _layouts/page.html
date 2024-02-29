@@ -5,7 +5,7 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-4 bio-column">
-            <h3></h3>
+            <h5></h5>
             {% include image.html url="images/mountains.JPEG" caption="" width="224px" align="left" %}
             
             <b>PhD Student</b> <br>
@@ -19,7 +19,7 @@ layout: default
 -->
             
             <hr>
-            <h4>News</h4>
+            <h5>News</h5>
             <div class="news">
                 {% for item in site.data.news %}
                 <div class="entry"><b>{{item.date}}:</b> {{item.event}}</div>
