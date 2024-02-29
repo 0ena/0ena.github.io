@@ -17,6 +17,13 @@ layout: default
             Atlanta, GA 30332 <br />
 -->
             <a href="mailto:amoschos@gatech.edu">amoschos@gatech.edu</a>
+            <hr>
+            <h5>News</h5>
+            <div class="news">
+                {% for item in site.data.news %}
+                <div class="entry"><b>{{item.date}}:</b> {{item.event}}</div>
+                {% endfor %}
+            </div>
 <!--            
             <hr>
             <h5>Teaching</h5>
@@ -25,19 +32,12 @@ layout: default
                 <div class="entry"><b>{{class.term}}:</b> <a href="{{class.link}}" target="_blank">{{class.listing}} - {{class.title}}</a><br></div>
                 {% endfor %}
             </div>
--->       
-            <hr>
-            <h5>News</h5>
-            <div class="news">
-                {% for item in site.data.news %}
-                <div class="entry"><b>{{item.date}}:</b> {{item.event}}</div>
-                {% endfor %}
-            </div>
 
           </div>
           <div class="col-8 border-left">
             {{ content }}
           </div>
+-->       
         </div>
       </div>  
 </div>
