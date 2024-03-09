@@ -11,6 +11,8 @@
   font-size: 12px;
 }
 
-.si-linkedin {
+.si-linkedin i {
   /* Add specific styles for LinkedIn icons */
+  color: #0077b5; /* Example: setting the color to LinkedIn's blue */
+  font-size: 24px; /* Example: setting the font size */
 }
