@@ -9,6 +9,9 @@ url: "https://0ena.github.io/"     # the base hostname & protocol for your site
 baseurl: ""                   # the subpath of your site, e.g. /blog
 
 # Build settings
+# If you clone the Minima repo and build locally, use this setting.
+theme: minima
+
 markdown: kramdown
 highlighter: rouge
 
