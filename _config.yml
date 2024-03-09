@@ -5,14 +5,14 @@ sourcecode: "https://github.com/0ena/0ena.github.io"
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md", "vendor"]
 
-url: "https://0ena.github.io/"     # the base hostname & protocol for your site
-#baseurl: ""                   # the subpath of your site, e.g. /blog
-
 # Build settings
 # If you clone the Minima repo and build locally, use this setting.
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
 - jekyll-remote-theme
+
+url: "https://0ena.github.io/"     # the base hostname & protocol for your site
+baseurl: ""                   # the subpath of your site, e.g. /blog
 
 markdown: kramdown
 highlighter: rouge
@@ -39,7 +39,7 @@ analytics:
     #     idsite: ''  # the id of the site on Piwik
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
-minima:
+#minima:
   # Minima skin selection.
   # Available skins are:
   # classic	           Default, light color scheme.
@@ -48,7 +48,7 @@ minima:
   # solarized-light	   Light variant of solarized color scheme.
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
-  skin: dark
+#  skin: dark
   
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
@@ -56,16 +56,16 @@ minima:
   #date_format: "%b-%d-%Y"
 
   # Generate social links in footer.
-  social_links:
+#  social_links:
   #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
   #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-    - { platform: github,         user_url: "https://github.com/0ena" }
+#    - { platform: github,         user_url: "https://github.com/0ena" }
   #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
   #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
   #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-    - { platform: linkedin,       user_url: "www.linkedin.com/in/anmos" }
+#    - { platform: linkedin,       user_url: "www.linkedin.com/in/anmos" }
   #  - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
   #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
   #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
