@@ -1,0 +1,16 @@
+.social-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.si-rounded {
+  border-radius: 5px;
+}
+
+.si-small {
+  font-size: 12px;
+}
+
+.si-linkedin {
+  /* Add specific styles for LinkedIn icons */
+}
