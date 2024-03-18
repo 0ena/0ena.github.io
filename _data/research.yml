@@ -6,5 +6,5 @@ pubs:
       year:    "2024"
       selected: true
       media:
-        - name: "bib"
-          url:  ""    
+        - name: "GitHub"
+          url:  "https://github.com/0ena/riscv-hw-trojans?tab=readme-ov-file#host-2024-towards-practical-fabrication-stage-attacks-using-interrupt-resilient-hardware-trojans"    
