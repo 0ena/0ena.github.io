@@ -1,0 +1,10 @@
+pubs:
+    - title:   "Towards Practical Fabrication Stage Attacks Using Interrupt-Resilient Hardware Trojans"
+      author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Fabian Monrose, Angelos D. Keromytis'
+      conference: "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)"
+      url:     "/papers/host_2024.pdf"
+      year:    "2024"
+      selected: true
+      media:
+        - name: "bib"
+          url:  ""    
