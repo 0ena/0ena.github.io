@@ -9,7 +9,6 @@ I am Nassos, a PhD student in Electrical and Computer Engineering at the Georgia
 My research interests lie in <span class="underline"><b>hardware security</b></span>, focusing in hardware trojan attacks and side-channel analysis.
 Other topics of interest include IC design and computer architecture.
 
-<!---
 #### Select publications 
 
 {% assign selected = site.data.research.pubs | where: "selected", true %}
@@ -25,4 +24,3 @@ Other topics of interest include IC design and computer architecture.
 {% if pub.note %} {{pub.note}}
 {% endif %}
 {% endfor %}
--->
