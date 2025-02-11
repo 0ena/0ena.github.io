@@ -8,6 +8,7 @@ permalink: /
 I am Nassos, a PhD student researcher in the [COEUS Center](https://coeus-center.com) at the Georgia Institute of Technology.
 I am advised by Dr. [Angelos Keromytis](https://angelosk.github.io/).
 My research interests lie in <span class="underline"><b>hardware security</b></span>, focusing in hardware trojan attacks and side-channel analysis. Other topics of interest include IC design and computer architecture.
+I am always looking for collaborations, so feel free to drop me an e-mail if interested in.
 
 #### Select publications 
 
