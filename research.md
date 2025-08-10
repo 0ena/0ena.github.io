@@ -18,13 +18,7 @@ title: Research
 {% if pub.media %}
 &nbsp;
 {% for article in pub.media %}
-  {% if article.icon %}
-    <a href="{{ article.url }}" class="social-icon si-{{ article.name | downcase }}" target="_blank">
-      <i class="{{ article.icon }}"></i>
-    </a>
-  {% else %}
     [{{ article.name }}]({{ article.url }}){:target="_blank" .sublinks}
-  {% endif %}
 {% endfor %}
 <br>
 {% endif %}
