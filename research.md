@@ -15,7 +15,19 @@ title: Research
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />
 *{{pub.conference}}* *{{pub.year}}*
-{% if pub.media %}&nbsp;{% for article in pub.media %}[[{{article.name}}]({{article.url}}){:target="_blank" .sublinks}]{% endfor %}<br>{% endif %}
+{% if pub.media %}
+&nbsp;
+{% for article in pub.media %}
+  {% if article.icon %}
+    <a href="{{ article.url }}" class="social-icon si-{{ article.name | downcase }}" target="_blank">
+      <i class="{{ article.icon }}"></i>
+    </a>
+  {% else %}
+    [{{ article.name }}]({{ article.url }}){:target="_blank" .sublinks}
+  {% endif %}
+{% endfor %}
+<br>
+{% endif %}
 {% if pub.press %}Related: {% for article in pub.press %}[{{article.name}}]({{article.url}}){:target="_blank" .sublinks}{% endfor %}<br>{% endif %}
 {%- if pub.note -%}{{pub.note}} {%- endif -%}
 {% endfor %}
