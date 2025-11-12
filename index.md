@@ -5,7 +5,7 @@ permalink: /
 
 <h4></h4>
 <hr>
-I am Athanasios (Nassos), an ECE PhD student at the [COEUS Center](https://coeus-center.com) at the Georgia Institute of Technology.
+I am Athanasios (Nassos), an ECE PhD Candidate at the [COEUS Center](https://coeus-center.com) at the Georgia Institute of Technology.
 I am advised by Dr. [Angelos Keromytis](https://angelosk.github.io/).
 My research interests lie in <span class="underline"><b>hardware security</b></span>, focusing in hardware trojan attacks and side-channel analysis. Other topics of interest include IC design and computer architecture.
 I am always looking for collaborations in the above areas, so feel free to drop me an e-mail if interested.
