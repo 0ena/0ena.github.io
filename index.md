@@ -7,7 +7,7 @@ permalink: /
 <hr>
 I am Nassos, an ECE PhD Candidate at the [COEUS Center](https://coeus-center.com) at the Georgia Institute of Technology.
 I am advised by Dr. [Angelos Keromytis](https://angelosk.github.io/).
-My research interests lie at the intersection of <span class="underline"><b>IC design</b></span> and <span class="underline"><b>hardware security</b></span>, focusing on hardware-trojan attacks on modern microarchitectures and their implications for global chip supply-chain security.
+My research interests lie at the intersection of <span class="underline"><b>IC design</b></span> and <span class="underline"><b>hardware security</b></span>, focusing on hardware trojan attacks on modern microarchitectures and their implications for global chip supply-chain security.
 Other topics of interest include <b>computer architecture</b> and <b>side-channel analysis</b>.
 I am always looking for collaborations in the above areas, so feel free to drop me an e-mail if interested.
 
