@@ -10,6 +10,33 @@ pubs:
           url:  "https://github.com/0ena/riscv-hw-trojans?tab=readme-ov-file#host-2024-towards-practical-fabrication-stage-attacks-using-interrupt-resilient-hardware-trojans"    
         - name: "Paper"
           url: "/papers/HOST2024.pdf"
+          
+    - title:   "Harnessing the Power of General-Purpose LLMs in Hardware Trojan Design"
+      author:  'Georgios Kokolakis, <span style="text-decoration: underline">Athanasios Moschos</span>, Angelos D. Keromytis'
+      conference: "Applied Cryptography and Network Security (ACNS) Workshops"
+      url:     "https://link.springer.com/chapter/10.1007/978-3-031-61486-6_11"
+      year:    "2024"
+      selected: true
+      media:  
+        - name: "Paper"
+          url: "https://astrolavos.gatech.edu/articles/AIHWS2024.pdf"
+
+    - title:   "On the Feasibility of Remotely Triggered Automotive Hardware Trojans"
+      author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Kevin Valakuzhy, Angelos D. Keromytis'
+      conference: "IEEE International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)"
+      url:     "https://ieeexplore.ieee.org/document/9987857"
+      year:    "2022"
+      selected: true
+      media:  
+        - name: "Paper"
+          url: "https://coeus.ece.gatech.edu/articles/iceccme.pdf"
+
+    - title:   "Side Channel Assessment Platforms and Tools for Ubiquitous Systems"
+      author:  'Apostolos P. Fournaris, <span style="text-decoration: underline">Athanasios Moschos</span>, Nicolas Sklavos'
+      conference: "Security of Ubiquitous Computing Systems"
+      url:     "https://link.springer.com/chapter/10.1007/978-3-030-10591-4_9"
+      year:    "2021"
+      selected: true
 
     - title:   "Design and leakage assessment of side channel attack resistant binary edwards Elliptic Curve digital signature algorithm architectures"
       author:  'Apostolos P. Fournaris, Charalambos Dimopoulos,<span style="text-decoration: underline">Athanasios Moschos</span>, Odysseas Koufopavlou'
