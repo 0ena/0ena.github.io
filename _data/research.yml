@@ -1,4 +1,14 @@
 pubs:
+    - title:   "A flexible leakage trace collection setup for arbitrary cryptographic IP cores"
+      author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Apostolos P. Fournaris, Odysseas Koufopavlou'
+      conference: "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)"
+      url:     "https://drive.google.com/file/d/1gRFhJhRpM8B8ZSjjZzoo3ExcE--j0o-A/view?pli=1"
+      year:    "2018"
+      selected: true
+      media:
+        - name: "Github"
+          url:  "https://github.com/UoPeceHWSec/FlexLECO"    
+          
     - title:   "Towards Practical Fabrication Stage Attacks Using Interrupt-Resilient Hardware Trojans"
       author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Fabian Monrose, Angelos D. Keromytis'
       conference: "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)"
