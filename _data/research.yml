@@ -1,20 +1,32 @@
 pubs:
-    - title:   "A flexible leakage trace collection setup for arbitrary cryptographic IP cores"
-      author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Apostolos P. Fournaris, Odysseas Koufopavlou'
-      conference: "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)"
-      url:     "https://drive.google.com/file/d/1gRFhJhRpM8B8ZSjjZzoo3ExcE--j0o-A/view?pli=1"
-      year:    "2018"
-      selected: true
-      media:
-        - name: "Github"
-          url:  "https://github.com/UoPeceHWSec/FlexLECO"    
-          
     - title:   "Towards Practical Fabrication Stage Attacks Using Interrupt-Resilient Hardware Trojans"
       author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Fabian Monrose, Angelos D. Keromytis'
       conference: "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)"
-      url:     "/papers/HOST2024.pdf"
+      url:     "https://ieeexplore.ieee.org/document/10545403"
       year:    "2024"
       selected: true
       media:
         - name: "GitHub"
           url:  "https://github.com/0ena/riscv-hw-trojans?tab=readme-ov-file#host-2024-towards-practical-fabrication-stage-attacks-using-interrupt-resilient-hardware-trojans"    
+        - name: "Paper"
+          url: "/papers/HOST2024.pdf"
+
+    - title:   "Design and leakage assessment of side channel attack resistant binary edwards Elliptic Curve digital signature algorithm architectures"
+      author:  'Apostolos P. Fournaris, Charalambos Dimopoulos,<span style="text-decoration: underline">Athanasios Moschos</span>, Odysseas Koufopavlou'
+      conference: "Microprocessors and Microsystems: Embedded Hardware Design (MICPRO)"
+      url:     "https://www.sciencedirect.com/science/article/pii/S0141933118300516"
+      year:    "2019"
+      selected: true
+
+    - title:   "A flexible leakage trace collection setup for arbitrary cryptographic IP cores"
+      author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Apostolos P. Fournaris, Odysseas Koufopavlou'
+      conference: "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)"
+      url:     "https://ieeexplore.ieee.org/document/8383902"
+      year:    "2018"
+      selected: true
+      media:
+        - name: "Github"
+          url:  "https://github.com/UoPeceHWSec/FlexLECO"
+        - name: "Paper"
+          url: "https://drive.google.com/file/d/1gRFhJhRpM8B8ZSjjZzoo3ExcE--j0o-A/view?pli=1"
+          
