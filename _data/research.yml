@@ -1,7 +1,7 @@
 pubs:
     - title:   "Assessing Runtime Electromagnetic Detection of CPU Hardware Trojans Targeting Kernel Memory"
       author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Baki Berkay Yilmaz, Kevin Valakuzhy, Angelos D. Keromytis'
-      conference: "IEEE International Conference on Electronics Circuits and Systems (ICECS) - To appear"
+      conference: '<span style="font-style: italic;">To appear:</span> IEEE International Conference on Electronics Circuits and Systems (ICECS)'
       year:    "2026"
       selected: true
       
