@@ -11,7 +11,7 @@ My research interests lie at the intersection of <span class="underline"><b>IC d
 Other topics of interest include <b>computer architecture</b> and <b>side-channel analysis</b>.
 I am always looking for collaborations in the above areas, so feel free to drop me an e-mail.
 
-#### Select publications 
+#### Select publications ([All publications](/research))
 
 {% assign selected = site.data.research.pubs | where: "selected", true %}
 {% for pub in selected %}
