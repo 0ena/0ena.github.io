@@ -51,7 +51,7 @@ pubs:
       year:    "2019"
       selected: false
 
-    - title:   "A flexible leakage trace collection setup for arbitrary cryptographic IP cores"
+    - title:   "A Flexible Leakage Trace Collection Setup for Arbitrary Cryptographic IP Cores"
       author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Apostolos P. Fournaris, Odysseas Koufopavlou'
       conference: "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)"
       url:     "https://ieeexplore.ieee.org/document/8383902"
