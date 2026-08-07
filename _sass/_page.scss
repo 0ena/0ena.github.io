@@ -71,11 +71,26 @@
     margin-bottom: 12px;
 }
 
-
 .underline {
     text-decoration: underline;
 }
 
 .tag-publication {
     margin-bottom: 1em;
+}
+
+.page__taxonomy-item {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    padding: 3px 7px;
+
+    text-decoration: none;
+    border: 1px solid $grey-light;
+    border-radius: 4px;
+}
+
+.page__taxonomy-item:hover {
+    text-decoration: none;
+    color: $url-hover-color;
 }
