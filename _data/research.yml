@@ -4,6 +4,9 @@ pubs:
       conference: '<span style="font-style: italic;">To appear:</span> IEEE International Conference on Electronics Circuits and Systems (ICECS)'
       year:    "2026"
       selected: true
+      topics:
+          - "Hardware Trojans"
+          - "Side-channel Analysis"
       
     - title:   "Towards Practical Fabrication Stage Attacks Using Interrupt-Resilient Hardware Trojans"
       author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Fabian Monrose, Angelos D. Keromytis'
@@ -11,6 +14,10 @@ pubs:
       url:     "https://ieeexplore.ieee.org/document/10545403"
       year:    "2024"
       selected: true
+      topics:
+          - "Hardware Trojans"
+          - "RISC-V Processors"
+          - "IC Design"
       media:
         - name: "GitHub"
           url:  "https://github.com/0ena/riscv-hw-trojans?tab=readme-ov-file#host-2024-towards-practical-fabrication-stage-attacks-using-interrupt-resilient-hardware-trojans"    
@@ -23,6 +30,9 @@ pubs:
       url:     "https://link.springer.com/chapter/10.1007/978-3-031-61486-6_11"
       year:    "2024"
       selected: true
+      topics:
+          - "Hardware Trojans"
+          - "LLMs"
       media:  
         - name: "Paper"
           url: "https://astrolavos.gatech.edu/articles/AIHWS2024.pdf"
@@ -33,6 +43,9 @@ pubs:
       url:     "https://ieeexplore.ieee.org/document/9987857"
       year:    "2022"
       selected: false
+      topics:
+          - "Hardware Trojans"
+          - "Automotive Security"
       media:  
         - name: "Paper"
           url: "https://coeus.ece.gatech.edu/articles/iceccme.pdf"
@@ -43,6 +56,9 @@ pubs:
       url:     "https://link.springer.com/chapter/10.1007/978-3-030-10591-4_9"
       year:    "2021"
       selected: false
+      topics:
+          - "Side-channel Analysis"
+          - "Cryptographic Hardware"
 
     - title:   "Design and leakage assessment of side channel attack resistant binary edwards Elliptic Curve digital signature algorithm architectures"
       author:  'Apostolos P. Fournaris, Charalambos Dimopoulos,<span style="text-decoration: underline">Athanasios Moschos</span>, Odysseas Koufopavlou'
@@ -50,6 +66,9 @@ pubs:
       url:     "https://www.sciencedirect.com/science/article/pii/S0141933118300516"
       year:    "2019"
       selected: false
+      topics:
+          - "Side-channel Analysis"
+          - "Cryptographic Hardware"
 
     - title:   "A Flexible Leakage Trace Collection Setup for Arbitrary Cryptographic IP Cores"
       author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Apostolos P. Fournaris, Odysseas Koufopavlou'
@@ -57,6 +76,9 @@ pubs:
       url:     "https://ieeexplore.ieee.org/document/8383902"
       year:    "2018"
       selected: true
+      topics:
+          - "Side-channel Analysis"
+          - "Cryptographic Hardware"
       media:
         - name: "Github"
           url:  "https://github.com/UoPeceHWSec/FlexLECO"
