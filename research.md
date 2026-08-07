@@ -13,7 +13,7 @@ title: Research
 {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
 {% endif %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
-{% if pub.topics %}Topics: {% for topic in pub.topics %}[{{topic}}]({{ '/tags/' | relative_url }}#{{ topic | slugify }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+{% if pub.topics %}Topics: {% for topic in pub.topics %}<a href="{{ '/tags/' | relative_url }}#{{ topic | slugify }}" class="page__taxonomy-item" rel="tag">{{ topic }}</a>{% endfor %}<br />{% endif %}
 {{pub.author}}<br />
 *{{pub.conference}}* *{{pub.year}}*{% if pub.media %}<br />{% for article in pub.media %}[[{{article.name}}]({{article.url}}){:target="_blank" .sublinks}] {% endfor %}{% endif %}
 {% if pub.press %}<br />Related: {% for article in pub.press %}[{{article.name}}]({{article.url}}){:target="_blank" .sublinks}{% endfor %}{% endif %}
