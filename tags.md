@@ -19,7 +19,7 @@ title: Topics
 <h4>Research Topics</h4>
 
 {% for topic in all_topics %}
-<a href="#{{ topic | slugify }}">{{ topic }}</a>{% unless forloop.last %}, {% endunless %}
+<a href="#{{ topic | slugify }}" class="page__taxonomy-item" rel="tag">{{ topic }}</a>
 {% endfor %}
 </div>
 
