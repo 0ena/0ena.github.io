@@ -19,6 +19,7 @@ I am always looking for collaborations in the above areas, so feel free to drop 
 {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
 {% endif %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
+{% if pub.topics %}Topics: {% for topic in pub.topics %}[{{topic}}]({{ '/tags/' | relative_url }}#{{ topic | slugify }}){% unless forloop.last %}, {% endunless %}{% endfor %}<br />{% endif %}
 {{pub.author}}<br />
 *{{pub.conference}}* *{{pub.year}}*
 <br>
