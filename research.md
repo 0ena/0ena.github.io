@@ -13,11 +13,11 @@ title: Research
 {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
 {% endif %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
+{% if pub.topics %}Topics: {% for topic in pub.topics %}{{topic}}{% unless forloop.last %}, {% endunless %}{% endfor %}<br />{% endif %}
 {{pub.author}}<br />
-*{{pub.conference}}* *{{pub.year}}*
-{% if pub.media %}<br />{% for article in pub.media %}[[{{article.name}}]({{article.url}}){:target="_blank" .sublinks}]{% endfor %}<br>{% endif %}
-{% if pub.press %}Related: {% for article in pub.press %}[{{article.name}}]({{article.url}}){:target="_blank" .sublinks}{% endfor %}<br>{% endif %}
-{%- if pub.note -%}{{pub.note}} {%- endif -%}
+*{{pub.conference}}* *{{pub.year}}*{% if pub.media %}<br />{% for article in pub.media %}[[{{article.name}}]({{article.url}}){:target="_blank" .sublinks}] {% endfor %}{% endif %}
+{% if pub.press %}<br />Related: {% for article in pub.press %}[{{article.name}}]({{article.url}}){:target="_blank" .sublinks}{% endfor %}{% endif %}
+{%- if pub.note -%}<br />{{pub.note}}{%- endif -%}
 {% endfor %}
 
 <!---
