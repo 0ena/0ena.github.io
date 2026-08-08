@@ -16,7 +16,7 @@ pubs:
       selected: true
       topics:
           - "Hardware Trojans"
-          - "RISC-V Processors"
+          - "RISC-V"
           - "IC Design"
       media:
         - name: "GitHub"
