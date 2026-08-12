@@ -7,6 +7,8 @@ pubs:
       topics:
           - "Hardware Trojans"
           - "Side-channel Analysis"
+          - "RISC-V"
+          - "FPGA Prototyping"
       
     - title:   "Towards Practical Fabrication Stage Attacks Using Interrupt-Resilient Hardware Trojans"
       author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Fabian Monrose, Angelos D. Keromytis'
@@ -18,6 +20,7 @@ pubs:
           - "Hardware Trojans"
           - "RISC-V"
           - "IC Design"
+          - "FPGA Prototyping"
       media:
         - name: "GitHub"
           url:  "https://github.com/0ena/riscv-hw-trojans?tab=readme-ov-file#host-2024-towards-practical-fabrication-stage-attacks-using-interrupt-resilient-hardware-trojans"    
