@@ -82,6 +82,7 @@ pubs:
       topics:
           - "Side-channel Analysis"
           - "Cryptographic Hardware"
+          - "FPGA Prototyping"
       media:
         - name: "Github"
           url:  "https://github.com/UoPeceHWSec/FlexLECO"
