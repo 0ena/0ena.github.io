@@ -11,7 +11,7 @@ pubs:
           - "FPGA Prototyping"
       media:    
         - name: "Paper"
-        url: "/papers/ICECS2026.pdf"
+          url: "/papers/ICECS2026.pdf"
       
     - title:   "Towards Practical Fabrication Stage Attacks Using Interrupt-Resilient Hardware Trojans"
       author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Fabian Monrose, Angelos D. Keromytis'
