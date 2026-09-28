@@ -1,7 +1,18 @@
 pubs:
+    - title:   "Exploiting Software-level Abstractions To Support Practical Hardware Trojan Attacks"
+      author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Kevin Valakuzhy, Georgios Kokolakis, Fabian Monrose, Angelos D. Keromytis'
+      conference: '<span style="font-style: italic;">Under submission.</span>'
+      url:     "https://arxiv.org/abs/2609.23173"
+      year:    "2026"
+      selected: true
+      topics:
+          - "Hardware Trojans"
+          - "RISC-V"
+          - "FPGA Prototyping"
     - title:   "Assessing Runtime Electromagnetic Detection of CPU Hardware Trojans Targeting Kernel Memory"
       author:  '<span style="text-decoration: underline">Athanasios Moschos</span>, Baki Berkay Yilmaz, Kevin Valakuzhy, Angelos D. Keromytis'
       conference: '<span style="font-style: italic;">To appear:</span> IEEE International Conference on Electronics Circuits and Systems (ICECS)'
+      url:     "https://arxiv.org/abs/2609.23186"
       year:    "2026"
       selected: true
       topics:
